@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { TrendingUp, ImageOff, RefreshCw } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000';
+const API_BASE = 'https://career-lens-salary-prediction-pakistan.onrender.com';
 
 /**
  * Reusable chart card that fetches a PNG from the FastAPI backend.
