@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import { Brain, ChevronDown, Loader2, Sparkles, AlertCircle, Check } from 'lucide-react';
 
-const API = axios.create({ baseURL: 'http://localhost:8000' });
+const API = axios.create({ baseURL: 'https://career-lens-salary-prediction-pakistan.onrender.com' });
 
 const ROLES    = ['FullStack', 'ITManagement', 'UIUXDesign', 'AIEngineer'];
 const CITIES   = ['Lahore', 'Karachi', 'Islamabad', 'Rawalpindi', 'Faisalabad', 'Peshawar'];
