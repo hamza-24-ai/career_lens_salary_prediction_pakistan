@@ -71,7 +71,7 @@ export default function Landing() {
     {
       num: "02",
       title: "AI Analyzes Data",
-      desc: "Our ML models trained on 400+ Pakistan market records process your profile instantly.",
+      desc: "Our ML models trained on 1200+ Pakistan market records process your profile instantly.",
       icon: <Zap size={18} />,
     },
     {
@@ -83,7 +83,7 @@ export default function Landing() {
   ];
 
   const stats = [
-    { val: "400+", label: "Market Records" },
+    { val: "1200+", label: "Market Records" },
     { val: "6", label: "Major Cities" },
     { val: "4", label: "Tech Roles" },
     { val: "29", label: "Skills Tracked" },

@@ -30,7 +30,7 @@ function AboutView() {
           {
             icon: <Brain size={20} className="text-blue-400" />,
             title: 'AI-Powered Predictions',
-            desc: 'Our ML regression models are trained on 400+ real market records from Pakistan\'s tech sector, covering salary, job type, and skill data across 4 major roles and 6 cities.',
+            desc: 'Our ML regression models are trained on 1200+ real market records from Pakistan\'s tech sector, covering salary, job type, and skill data across 4 major roles and 6 cities.',
           },
           {
             icon: <BarChart2 size={20} className="text-emerald-400" />,
@@ -69,7 +69,7 @@ function AboutView() {
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { val: '400+', label: 'Market Records' },
+            { val: '1200+', label: 'Market Records' },
             { val: '6', label: 'Major Cities' },
             { val: '4', label: 'Tech Roles' },
             { val: '29', label: 'Skills Tracked' },
